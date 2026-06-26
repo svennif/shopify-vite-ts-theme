@@ -18,6 +18,7 @@
 ├── sections        # Modular full-width page components
 ├── snippets        # Reusable Liquid code or HTML fragments
 └── templates       # Templates combining sections and blocks to define page structures
+└── src             # All custom JS and CSS then bundled into static assets through vite
 ```
 
 #### `sections`
@@ -74,6 +75,9 @@
 
 - Write CSS and JavaScript per components using the `{% stylesheet %}` and `{% javascript %}` tags
 - Note: `{% stylesheet %}` and `{% javascript %}` are only supported in `snippets/`, `blocks/`, and `sections/`
+
+#### In /src
+- All JS (TS) and CSS (SCSS) should be stored in the /src folder where it should point towards the snippet, block or section.
 
 ### LiquidDoc
 
