@@ -1,0 +1,1 @@
+/home/sven/dev/personal/shopify-vite-ts-theme/AGENTS.md
